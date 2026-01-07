@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>芝士漫画 | 安卓/ios下载 - 聚合70+漫画源的免费漫画阅读器</title>
+    <meta name="description" content="芝士漫画整合国内外漫画平台资源，覆盖日漫、国漫、韩漫、美漫等全类型，支持按地区、题材、连载状态分类浏览，支持调整阅读背景、字体大小、翻页方式，适配深色、浅色模式。">
+    <meta name="keywords" content="芝士漫画,芝士漫画官网">
+    <link rel="shortcut icon" href="/zhishiman2/brhe4.png" type="image/x-icon" />
+    <style>
+        /* 基础样式与浅黄色主题 */
+        :root {
+            --bg-color: #FFFDE7; /* 浅黄色背景 */
+            --primary-color: #FBC02D; /* 按钮深黄 */
+            --text-color: #5D4037; /* 深褐文字，对比度高 */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow: hidden; /* 强制手机端一屏显示，禁止滚动 */
+        }
+
+        /* 响应式容器：手机端一屏居中 */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* 软件图片：200x200 正方形 */
+        .app-icon {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 40px; /* 类似App图标的圆角 */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-bottom: 30px;
+            max-width: 280px;
+        }
+
+        /* 按钮组布局 */
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            max-width: 260px;
+        }
+
+        .btn {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            color: #fff;
+            background-color: var(--primary-color);
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+            background-color: #F9A825;
+        }
+
+        /* 针对电脑端的小优化 */
+        @media (min-width: 768px) {
+            body { overflow: auto; } /* 电脑端允许滚动 */
+            .button-group { flex-direction: row; max-width: 600px; }
+            .btn { flex: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<main class="container">
+    <img src="/zhishiman2/twrghnr44.png" alt="芝士漫画" class="app-icon">
+
+    <header>
+        <h1>芝士漫画</h1>
+        <p class="description">芝士漫画整合国内外漫画平台资源，覆盖日漫、国漫、韩漫、美漫等全类型。</p>
+    </header>
+
+    <nav class="button-group">
+        <a href="/zhishiman2.php" class="btn">苹果版下载</a>
+        <a href="/zhishiman2.php" class="btn">安卓版下载</a>
+        <a href="/zhishiman2.php" class="btn" >网页版入口</a>
+    </nav>
+
+    <footer style="margin-top: 30px; font-size: 12px; opacity: 0.5;">
+        &copy; 2025 芝士漫画 版权所有
+    </footer>
+</main>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"64afc765fb2748caa98409d1db085b5e","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
