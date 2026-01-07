@@ -7,7 +7,7 @@
     <meta name="description" content="芝士漫画整合国内外漫画平台资源，覆盖日漫、国漫、韩漫、美漫等全类型，支持按地区、题材、连载状态分类浏览，支持调整阅读背景、字体大小、翻页方式，适配深色、浅色模式。">
     <meta name="keywords" content="芝士漫画,芝士漫画官网">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="/zhishiman2/brhe4.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/zhishimanhua/zhishiman2/brhe4.png" type="image/x-icon" />
 	
 <title>芝士漫画-官方交流频道</title>
 <style type="text/css">
@@ -98,7 +98,7 @@ a:active {
 	  
 <td align="center" valign="middle">
     <div class="juzhong1">
-<img src="/zhishiman2/ZW32523.jpg" alt="" width="239" height="374">
+<img src="/zhishimanhua/zhishiman2/ZW32523.jpg" alt="" width="239" height="374">
 </div>
 		  
   </td>
@@ -151,4 +151,5 @@ a:active {
 	
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"64afc765fb2748caa98409d1db085b5e","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
+
 </html>
